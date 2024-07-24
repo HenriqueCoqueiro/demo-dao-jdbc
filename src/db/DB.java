@@ -52,7 +52,7 @@ public class DB {
         }
     }
 
-    public static void closeResultSet(ResultSet rs){
+    public static void  closeResultSet(ResultSet rs){
         try {
             rs.close();
         } catch (SQLException e) {
